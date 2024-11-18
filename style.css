@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+@keyframes umar{
+    0%{
+        background-color: black;
+        top: 0;
+        left: 0;
+        
+    }
+    25%{
+        background-color: rgb(0, 0, 0);
+        top: 0;
+        left: 1300px;
+        
+     }
+     50%{
+        background-color: rgb(255, 0, 0);
+        top: 500px;
+        left: 1300px;
+     }
+        
+        
+     75%{
+        background-color: aquamarine;
+        top: 500px;
+        left: 0;
+     }
+     100% {
+        background-color: blueviolet;
+        top: 0;
+        left: 0;
+    }
+}
+
+.box{
+    background-color: rgb(0, 0, 0);
+    animation-name: umar;
+    animation-duration: 10s;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    animation-iteration-count: infinite;
+width: 300px;
+height: 300px;
+position: relative;
+}
+
+
+
